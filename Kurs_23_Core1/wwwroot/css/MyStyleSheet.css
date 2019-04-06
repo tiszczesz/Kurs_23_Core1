@@ -1,0 +1,9 @@
+﻿body {
+    background-color: bisque;
+}
+#ulubione {
+    border: solid black 2px;
+    background-color: greenyellow;
+    padding: 10px;
+    text-align: center;
+}

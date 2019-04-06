@@ -1,0 +1,19 @@
+﻿@page
+@model Kurs_23_Core1.Pages.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<ol>
+    
+    @foreach (var pracownik in (List<string>)ViewData["lista"])
+    {
+        <li>@pracownik</li>
+    }
+</ol>
+<div>
+    <a asp-page="InnaStrona">Link do strony innej</a><br/>
+    <a asp-page="Ulubiona">Do majej ulubionej strony</a><br/>
+    <a asp-page="OsobnaStrona">Do osobnej strony</a>
+</div>
